@@ -1,3 +1,4 @@
+'use client'
 import { ArrowRight, CheckCircle, ChevronDown, Globe, Users, Zap } from 'lucide-react'
 import Image from "next/image"
 import Link from "next/link"
@@ -5,6 +6,7 @@ import { Button } from "@/components/ui/button"
 import FeatureCard from "@/components/feature-card"
 import TrainingCard from "@/components/training-card"
 import AudienceCard from "@/components/audience-card"
+import TestimonialSlider from "@/components/testimonial-slider"
 import EventCard from "@/components/event-card"
 import DifferentiatorItem from "@/components/differentiator-item"
 import AnimatedSection from "@/components/animated-section"
