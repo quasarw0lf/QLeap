@@ -1,20 +1,28 @@
 import type React from "react"
+import type { Metadata } from "next"
 import { Inter } from "next/font/google"
-import "../src/index.css"
+import "./globals.css"
+import { ThemeProvider } from "@/components/theme-provider"
 
 const inter = Inter({ subsets: ["latin"] })
 
-export const metadata = {
-  title: "QLeap - Cybersecurity Training",
-  description:
-    "QLeap - Cybersecurity Training That Accelerates Your Future. Hands-on training in VAPT, SOC, GRC, Red Teaming, and more.",
-    generator: 'v0.dev'
+export const metadata: Metadata = {
+  title: "QLeap – Cybersecurity Training That Accelerates Your Future",
+  description: "Hands-on training in VAPT, SOC, GRC, Red Teaming, and more — designed for students and professionals.",
 }
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode
+}>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" suppressHydrationWarning>
+      <body className={inter.className}>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   )
 }
