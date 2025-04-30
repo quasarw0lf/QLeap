@@ -340,7 +340,7 @@ export default function Home() {
         <div className="container">
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
             <div className="space-y-4">
-              <Image src="/logo.png" alt="QLeap Logo" width={150} height={50} className="h-auto" />
+              <Image src="/logof.png" alt="QLeap Logo" width={150} height={50} className="h-auto" />
               <p className="text-sm text-muted-foreground">Empowering Talent. Enabling Enterprises.</p>
             </div>
             <div>
