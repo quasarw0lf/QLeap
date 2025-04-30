@@ -39,7 +39,7 @@ const CourseCard = ({ title, description, icon: Icon, delay = 0 }) => {
           </li>
         </ul>
       </div>
-      <button className="mt-6 w-full btn-primary">Learn More</button>
+      {/* <button className="mt-6 w-full btn-primary">Learn More</button> */}
     </motion.div>
   )
 }
