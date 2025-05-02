@@ -1,14 +1,19 @@
 import type React from "react"
-import type { Metadata } from "next"
-import { Inter } from "next/font/google"
+import { Inter, Poppins } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-poppins",
+})
 
-export const metadata: Metadata = {
-  title: "QLeap – Cybersecurity Training That Accelerates Your Future",
-  description: "Hands-on training in VAPT, SOC, GRC, Red Teaming, and more — designed for students and professionals.",
+export const metadata = {
+  title: "QLeap - Professional Training & Development",
+  description: "QLeap offers professional training and development programs to help you advance your career.",
+    generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -18,8 +23,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+      <body className={`${inter.variable} ${poppins.variable} font-sans`}>
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false} disableTransitionOnChange>
           {children}
         </ThemeProvider>
       </body>
