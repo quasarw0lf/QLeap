@@ -7,42 +7,42 @@ import { ChevronLeft, ChevronRight, Star } from "lucide-react"
 const testimonials = [
   {
     name: "Sarah Johnson",
-    position: "Marketing Director, TechCorp",
+    position: "CISO, TechCorp",
     image: "/placeholder.svg?height=100&width=100",
     content:
-      "The leadership program at QLeap transformed my approach to team management. The practical strategies and personalized coaching helped me navigate a major organizational change with confidence.",
+      "The advanced security program at QLeap transformed our organization's approach to cybersecurity. The practical strategies and hands-on labs helped our team respond to a major security incident with confidence.",
     rating: 5,
   },
   {
     name: "Michael Chen",
-    position: "Senior Developer, InnovateSoft",
+    position: "Security Engineer, InnovateSoft",
     image: "/placeholder.svg?height=100&width=100",
     content:
-      "As a technical professional, I was skeptical about soft skills training, but QLeap's program was exactly what I needed to advance my career. The technical leadership module was particularly valuable.",
+      "As a technical professional, I found QLeap's hands-on security labs to be exactly what I needed to advance my career. The offensive security module was particularly valuable for understanding attacker techniques.",
     rating: 5,
   },
   {
     name: "Jessica Williams",
-    position: "HR Manager, Global Retail Inc.",
+    position: "IT Director, Global Retail Inc.",
     image: "/placeholder.svg?height=100&width=100",
     content:
-      "QLeap's training programs have become an integral part of our talent development strategy. The customized approach and measurable outcomes have made a significant impact on our team's performance.",
+      "QLeap's cybersecurity training programs have become an integral part of our security talent development strategy. The customized approach and measurable outcomes have significantly improved our security posture.",
     rating: 4,
   },
   {
     name: "David Rodriguez",
-    position: "Operations Director, Logistics Plus",
+    position: "SOC Manager, Financial Services Plus",
     image: "/placeholder.svg?height=100&width=100",
     content:
-      "The strategic thinking workshop exceeded my expectations. The facilitators were exceptional, and the frameworks we learned have already helped us optimize several key business processes.",
+      "The security operations workshop exceeded my expectations. The instructors were exceptional security practitioners, and the frameworks we learned have already helped us detect several potential security incidents.",
     rating: 5,
   },
   {
     name: "Emma Thompson",
-    position: "Project Manager, BuildWell Construction",
+    position: "Security Analyst, DefendWell Security",
     image: "/placeholder.svg?height=100&width=100",
     content:
-      "QLeap's project management certification program was comprehensive and immediately applicable. I implemented the techniques I learned and saw a 30% improvement in team efficiency within weeks.",
+      "QLeap's security certification program was comprehensive and immediately applicable. I implemented the techniques I learned and saw a 30% improvement in our threat detection capabilities within weeks.",
     rating: 5,
   },
 ]
@@ -82,7 +82,8 @@ const Testimonials = () => {
             What Our <span className="gradient-text">Clients</span> Say
           </h2>
           <p className="text-gray-300 text-lg reveal reveal-delay-1">
-            Hear from professionals who have experienced the transformative impact of our training programs.
+            Hear from cybersecurity professionals who have experienced the transformative impact of QLeap Education by
+            Quasar CyberTech.
           </p>
         </div>
 
@@ -159,15 +160,15 @@ const Testimonials = () => {
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6 text-center reveal">
           <div className="bg-gray-900/30 p-6 rounded-xl border border-gray-800">
             <div className="text-4xl font-bold text-primary mb-2">500+</div>
-            <p className="text-gray-400">Client Companies</p>
+            <p className="text-gray-400">Enterprise Clients</p>
           </div>
           <div className="bg-gray-900/30 p-6 rounded-xl border border-gray-800">
             <div className="text-4xl font-bold text-primary mb-2">10k+</div>
-            <p className="text-gray-400">Professionals Trained</p>
+            <p className="text-gray-400">Security Professionals Trained</p>
           </div>
           <div className="bg-gray-900/30 p-6 rounded-xl border border-gray-800">
             <div className="text-4xl font-bold text-primary mb-2">98%</div>
-            <p className="text-gray-400">Satisfaction Rate</p>
+            <p className="text-gray-400">Certification Success Rate</p>
           </div>
           <div className="bg-gray-900/30 p-6 rounded-xl border border-gray-800">
             <div className="text-4xl font-bold text-primary mb-2">25+</div>

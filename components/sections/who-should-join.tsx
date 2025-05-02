@@ -3,26 +3,28 @@ import Image from "next/image"
 const WhoShouldJoin = () => {
   const profiles = [
     {
-      title: "Aspiring Leaders",
-      description: "Professionals looking to advance into leadership roles and develop essential management skills.",
-      image: "/placeholder.svg?height=400&width=400",
+      title: "Security Professionals",
+      description:
+        "Cybersecurity specialists looking to advance their skills and stay current with evolving threats and defense techniques.",
+      image: "/security-operations.png",
     },
     {
-      title: "Technical Professionals",
+      title: "IT Professionals",
       description:
-        "Engineers, developers, and technical specialists seeking to enhance their expertise and stay current.",
-      image: "/placeholder.svg?height=400&width=400",
+        "IT staff seeking to add security expertise to their skillset and transition into cybersecurity roles.",
+      image: "/cybersecurity-analyst.png",
     },
     {
-      title: "Executives",
+      title: "Security Leaders",
       description:
-        "Senior leaders aiming to refine their strategic thinking and organizational leadership capabilities.",
-      image: "/placeholder.svg?height=400&width=400",
+        "CISOs and security managers aiming to enhance their strategic security planning and team leadership capabilities.",
+      image: "/server-room.png",
     },
     {
       title: "Career Changers",
-      description: "Individuals transitioning to new roles or industries who need to develop relevant skills quickly.",
-      image: "/placeholder.svg?height=400&width=400",
+      description:
+        "Individuals transitioning to cybersecurity careers who need to develop relevant skills and certifications quickly.",
+      image: "/quasar-chip.png",
     },
   ]
 
@@ -34,8 +36,8 @@ const WhoShouldJoin = () => {
             Who Should <span className="gradient-text">Join</span>?
           </h2>
           <p className="text-gray-300 text-lg reveal reveal-delay-1">
-            Our programs are designed for professionals at various career stages who are committed to continuous growth
-            and excellence.
+            QLeap Education programs are designed for cybersecurity professionals at various career stages who are
+            committed to continuous growth and excellence in the field.
           </p>
         </div>
 
@@ -48,7 +50,13 @@ const WhoShouldJoin = () => {
             >
               <div className="relative h-48 overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent z-10"></div>
-                <Image src={profile.image || "/placeholder.svg"} alt={profile.title} fill className="object-cover" />
+                <Image
+                  src={profile.image || "/placeholder.svg"}
+                  alt={profile.title}
+                  width={400}
+                  height={300}
+                  className="object-cover w-full h-full"
+                />
                 <h3 className="absolute bottom-4 left-4 text-xl font-semibold z-20">{profile.title}</h3>
               </div>
               <div className="p-6">
@@ -61,10 +69,12 @@ const WhoShouldJoin = () => {
         <div className="mt-16 bg-blue-900/10 rounded-2xl p-8 md:p-12 border border-blue-900/20 reveal">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <h3 className="text-2xl md:text-3xl font-bold mb-4">Not sure if our programs are right for you?</h3>
+              <h3 className="text-2xl md:text-3xl font-bold mb-4">
+                Not sure if our cybersecurity programs are right for you?
+              </h3>
               <p className="text-gray-300 mb-6">
-                Schedule a free consultation with our career advisors to discuss your professional goals and find the
-                perfect training path for your needs.
+                Schedule a free consultation with our security career advisors to discuss your professional goals and
+                find the perfect training path for your cybersecurity journey.
               </p>
               <a href="#contact-us" className="btn-primary inline-block">
                 Book a Consultation
@@ -90,8 +100,10 @@ const WhoShouldJoin = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-1">Personalized Assessment</h4>
-                  <p className="text-gray-400 text-sm">Evaluate your current skills and identify areas for growth</p>
+                  <h4 className="font-semibold mb-1">Security Skills Assessment</h4>
+                  <p className="text-gray-400 text-sm">
+                    Evaluate your current cybersecurity skills and identify areas for growth
+                  </p>
                 </div>
               </div>
               <div className="flex items-start">
@@ -113,8 +125,10 @@ const WhoShouldJoin = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-1">Career Path Planning</h4>
-                  <p className="text-gray-400 text-sm">Map out your professional journey with expert guidance</p>
+                  <h4 className="font-semibold mb-1">Certification Roadmap</h4>
+                  <p className="text-gray-400 text-sm">
+                    Map out your cybersecurity certification journey with expert guidance
+                  </p>
                 </div>
               </div>
               <div className="flex items-start">
@@ -136,8 +150,10 @@ const WhoShouldJoin = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-1">Program Recommendations</h4>
-                  <p className="text-gray-400 text-sm">Get tailored suggestions based on your goals and background</p>
+                  <h4 className="font-semibold mb-1">Training Recommendations</h4>
+                  <p className="text-gray-400 text-sm">
+                    Get tailored security training suggestions based on your goals and background
+                  </p>
                 </div>
               </div>
             </div>

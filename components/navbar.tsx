@@ -38,7 +38,14 @@ const Navbar = () => {
     >
       <div className="container-custom flex items-center justify-between py-4">
         <Link href="#top" className="flex items-center">
-          <Image src="/logo.png" alt="QLeap Logo" width={120} height={40} className="h-10 w-auto" />
+          <Image
+            src="/logo.png"
+            alt="QLeap Education by Quasar CyberTech"
+            width={180}
+            height={60}
+            className="h-12 w-auto"
+            priority
+          />
         </Link>
 
         {/* Desktop Navigation */}

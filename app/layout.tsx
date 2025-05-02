@@ -11,9 +11,17 @@ const poppins = Poppins({
 })
 
 export const metadata = {
-  title: "QLeap - Professional Training & Development",
-  description: "QLeap offers professional training and development programs to help you advance your career.",
-    generator: 'v0.dev'
+  title: "QLeap Education | Cybersecurity Training by Quasar CyberTech",
+  description:
+    "QLeap Education offers professional cybersecurity training and development programs by Quasar CyberTech to help you advance your career in cybersecurity.",
+  keywords:
+    "QLeap Education, Quasar CyberTech, cybersecurity training, cybersecurity certification, security operations, cyber defense, information security",
+  openGraph: {
+    title: "QLeap Education | Cybersecurity Training by Quasar CyberTech",
+    description:
+      "QLeap Education offers professional cybersecurity training and development programs by Quasar CyberTech to help you advance your career in cybersecurity.",
+    images: [{ url: "/logo.png" }],
+  },
 }
 
 export default function RootLayout({
@@ -23,6 +31,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="shortcut icon" href="/logo-shortcut.png" />
+      </head>
       <body className={`${inter.variable} ${poppins.variable} font-sans`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false} disableTransitionOnChange>
           {children}

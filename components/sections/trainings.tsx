@@ -1,45 +1,49 @@
-import { Code, LineChart, Briefcase, Cpu, Brain, Users } from "lucide-react"
+import { ShieldAlert, ShieldCheck, Network, Server, Database, Lock } from "lucide-react"
 import Link from "next/link"
 
 const Trainings = () => {
   const trainingCategories = [
     {
-      icon: <Code className="h-10 w-10 text-primary" />,
-      title: "Technical Skills",
+      icon: <ShieldAlert className="h-10 w-10 text-primary" />,
+      title: "Offensive Security",
       description:
-        "Master cutting-edge technologies and programming languages essential for today's digital landscape.",
-      courses: ["Web Development", "Data Science", "Cloud Computing", "DevOps"],
+        "Master ethical hacking, penetration testing, and vulnerability assessment techniques to identify and exploit security weaknesses.",
+      courses: ["Ethical Hacking", "Penetration Testing", "Red Team Operations", "Vulnerability Assessment"],
     },
     {
-      icon: <LineChart className="h-10 w-10 text-primary" />,
-      title: "Business Strategy",
-      description: "Develop strategic thinking and business acumen to drive organizational growth and innovation.",
-      courses: ["Strategic Planning", "Business Analytics", "Market Research", "Innovation Management"],
-    },
-    {
-      icon: <Briefcase className="h-10 w-10 text-primary" />,
-      title: "Leadership",
-      description: "Enhance your leadership capabilities to effectively guide teams and drive organizational success.",
-      courses: ["Executive Leadership", "Team Management", "Change Management", "Conflict Resolution"],
-    },
-    {
-      icon: <Cpu className="h-10 w-10 text-primary" />,
-      title: "Digital Transformation",
+      icon: <ShieldCheck className="h-10 w-10 text-primary" />,
+      title: "Defensive Security",
       description:
-        "Navigate the digital landscape and lead successful transformation initiatives in your organization.",
-      courses: ["Digital Strategy", "AI Implementation", "Process Automation", "Digital Marketing"],
+        "Develop skills in threat detection, incident response, and security monitoring to protect organizations from cyber attacks.",
+      courses: ["Security Operations", "Incident Response", "Digital Forensics", "Threat Hunting"],
     },
     {
-      icon: <Brain className="h-10 w-10 text-primary" />,
-      title: "Personal Development",
-      description: "Cultivate essential soft skills and personal attributes that enhance professional effectiveness.",
-      courses: ["Emotional Intelligence", "Time Management", "Public Speaking", "Negotiation Skills"],
+      icon: <Network className="h-10 w-10 text-primary" />,
+      title: "Network Security",
+      description:
+        "Learn to secure network infrastructure, implement secure architectures, and defend against network-based attacks.",
+      courses: ["Network Defense", "Secure Architecture", "Cloud Security", "Zero Trust Implementation"],
     },
     {
-      icon: <Users className="h-10 w-10 text-primary" />,
-      title: "Team Building",
-      description: "Foster collaboration, communication, and cohesion within teams to maximize collective performance.",
-      courses: ["Team Dynamics", "Collaborative Problem Solving", "Remote Team Management", "Team Culture"],
+      icon: <Server className="h-10 w-10 text-primary" />,
+      title: "Cloud Security",
+      description:
+        "Gain expertise in securing cloud environments across major platforms and implementing cloud-native security controls.",
+      courses: ["AWS Security", "Azure Security", "GCP Security", "Multi-Cloud Security"],
+    },
+    {
+      icon: <Database className="h-10 w-10 text-primary" />,
+      title: "Security Compliance",
+      description:
+        "Understand regulatory requirements and implement governance frameworks to ensure security compliance.",
+      courses: ["GDPR Compliance", "HIPAA Security", "PCI DSS Implementation", "ISO 27001 Certification"],
+    },
+    {
+      icon: <Lock className="h-10 w-10 text-primary" />,
+      title: "Application Security",
+      description:
+        "Learn to build secure applications, perform code reviews, and implement secure development practices.",
+      courses: ["Secure Coding", "OWASP Top 10", "DevSecOps", "API Security"],
     },
   ]
 
@@ -48,11 +52,11 @@ const Trainings = () => {
       <div className="container-custom">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 reveal">
-            Our <span className="gradient-text">Training</span> Programs
+            Our <span className="gradient-text">Cybersecurity</span> Programs
           </h2>
           <p className="text-gray-300 text-lg reveal reveal-delay-1">
-            Comprehensive training solutions designed to address the evolving needs of professionals and organizations
-            in today's dynamic business environment.
+            Comprehensive security training solutions designed by Quasar CyberTech to address the evolving threat
+            landscape and security challenges organizations face today.
           </p>
         </div>
 

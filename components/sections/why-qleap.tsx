@@ -1,4 +1,4 @@
-import { Lightbulb, Target, Users, Award } from "lucide-react"
+import { ShieldCheck, Lock, Server, Database } from "lucide-react"
 
 const WhyQLeap = () => {
   return (
@@ -7,56 +7,56 @@ const WhyQLeap = () => {
       <div className="container-custom relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 reveal">
-            Why <span className="gradient-text">QLeap</span>?
+            Why <span className="gradient-text">QLeap</span> Education?
           </h2>
           <p className="text-gray-300 text-lg reveal reveal-delay-1">
-            We're dedicated to transforming professionals through innovative training methodologies and cutting-edge
-            curriculum designed for today's dynamic workplace.
+            Quasar CyberTech's QLeap Education is dedicated to transforming cybersecurity professionals through
+            innovative training methodologies and cutting-edge curriculum designed for today's threat landscape.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="bg-gray-900/50 backdrop-blur-sm p-8 rounded-xl border border-gray-800 card-hover reveal reveal-delay-1">
             <div className="bg-blue-500/20 p-3 rounded-lg w-fit mb-6">
-              <Lightbulb className="h-8 w-8 text-primary" />
+              <ShieldCheck className="h-8 w-8 text-primary" />
             </div>
-            <h3 className="text-xl font-semibold mb-3">Innovative Approach</h3>
+            <h3 className="text-xl font-semibold mb-3">Industry-Leading Curriculum</h3>
             <p className="text-gray-400">
-              Our training programs combine cutting-edge methodologies with practical applications to ensure maximum
-              knowledge retention and skill development.
+              Our cybersecurity training programs combine cutting-edge methodologies with practical applications to
+              ensure maximum knowledge retention and skill development.
             </p>
           </div>
 
           <div className="bg-gray-900/50 backdrop-blur-sm p-8 rounded-xl border border-gray-800 card-hover reveal reveal-delay-2">
             <div className="bg-blue-500/20 p-3 rounded-lg w-fit mb-6">
-              <Target className="h-8 w-8 text-primary" />
+              <Lock className="h-8 w-8 text-primary" />
             </div>
-            <h3 className="text-xl font-semibold mb-3">Industry-Focused</h3>
+            <h3 className="text-xl font-semibold mb-3">Hands-On Security Labs</h3>
             <p className="text-gray-400">
-              Programs tailored to specific industry needs, ensuring you gain relevant skills that directly apply to
-              your professional environment.
+              Programs feature realistic security scenarios in controlled environments, ensuring you gain practical
+              experience with the latest threats and defense techniques.
             </p>
           </div>
 
           <div className="bg-gray-900/50 backdrop-blur-sm p-8 rounded-xl border border-gray-800 card-hover reveal reveal-delay-3">
             <div className="bg-blue-500/20 p-3 rounded-lg w-fit mb-6">
-              <Users className="h-8 w-8 text-primary" />
+              <Server className="h-8 w-8 text-primary" />
             </div>
-            <h3 className="text-xl font-semibold mb-3">Expert Instructors</h3>
+            <h3 className="text-xl font-semibold mb-3">Security Expert Instructors</h3>
             <p className="text-gray-400">
-              Learn from industry leaders and subject matter experts with extensive real-world experience and proven
-              teaching excellence.
+              Learn from industry leaders and cybersecurity experts with extensive real-world experience in threat
+              detection, incident response, and security architecture.
             </p>
           </div>
 
           <div className="bg-gray-900/50 backdrop-blur-sm p-8 rounded-xl border border-gray-800 card-hover reveal reveal-delay-4">
             <div className="bg-blue-500/20 p-3 rounded-lg w-fit mb-6">
-              <Award className="h-8 w-8 text-primary" />
+              <Database className="h-8 w-8 text-primary" />
             </div>
-            <h3 className="text-xl font-semibold mb-3">Proven Results</h3>
+            <h3 className="text-xl font-semibold mb-3">Certification Preparation</h3>
             <p className="text-gray-400">
-              Our training programs have a demonstrated track record of career advancement, with 87% of participants
-              reporting significant professional growth.
+              Our training programs have a demonstrated track record of certification success, with 98% of participants
+              passing industry-standard cybersecurity certifications.
             </p>
           </div>
         </div>
@@ -64,10 +64,10 @@ const WhyQLeap = () => {
         <div className="mt-16 bg-gradient-to-r from-blue-900/20 to-black p-8 md:p-12 rounded-2xl border border-blue-900/30 reveal">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <h3 className="text-2xl md:text-3xl font-bold mb-4">Ready to transform your career?</h3>
+              <h3 className="text-2xl md:text-3xl font-bold mb-4">Ready to advance your cybersecurity career?</h3>
               <p className="text-gray-300 mb-6">
-                Join thousands of professionals who have accelerated their career growth through our specialized
-                training programs. Take the leap today and unlock your full potential.
+                Join thousands of security professionals who have accelerated their career growth through our
+                specialized training programs. Take the leap today and become the security expert organizations need.
               </p>
               <a href="#contact-us" className="btn-primary inline-block">
                 Get Started Today

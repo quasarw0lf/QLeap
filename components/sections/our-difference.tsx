@@ -4,29 +4,29 @@ import Image from "next/image"
 const OurDifference = () => {
   const differentiators = [
     {
-      title: "Practical Application",
+      title: "Real-World Security Scenarios",
       description:
-        "Our training goes beyond theory with hands-on exercises and real-world projects that reinforce learning and build practical skills.",
+        "Our training goes beyond theory with hands-on exercises in realistic security environments that simulate actual cyber attacks and defense scenarios.",
     },
     {
       title: "Personalized Learning Paths",
       description:
-        "Customized training journeys tailored to individual needs, learning styles, and career objectives for maximum impact.",
+        "Customized cybersecurity training journeys tailored to individual needs, learning styles, and career objectives for maximum impact.",
     },
     {
-      title: "Industry-Leading Instructors",
+      title: "Active Security Professionals",
       description:
-        "Learn from accomplished professionals with extensive experience in their fields who bring real-world insights to every session.",
+        "Learn from accomplished cybersecurity practitioners with extensive experience who bring real-world insights from the security frontlines.",
     },
     {
       title: "Continuous Support",
       description:
-        "Access to mentorship, resources, and community support even after program completion to ensure ongoing growth.",
+        "Access to mentorship, security resources, and community support even after program completion to ensure ongoing growth.",
     },
     {
-      title: "Cutting-Edge Curriculum",
+      title: "Cutting-Edge Security Curriculum",
       description:
-        "Regularly updated content that reflects the latest industry trends, technologies, and best practices.",
+        "Regularly updated content that reflects the latest cyber threats, defense techniques, and security best practices.",
     },
     {
       title: "Flexible Learning Options",
@@ -43,8 +43,8 @@ const OurDifference = () => {
             Our <span className="gradient-text">Difference</span>
           </h2>
           <p className="text-gray-300 text-lg reveal reveal-delay-1">
-            What sets QLeap apart is our commitment to excellence, innovation, and measurable results in professional
-            development.
+            What sets QLeap Education by Quasar CyberTech apart is our commitment to excellence, innovation, and
+            measurable results in cybersecurity training.
           </p>
         </div>
 
@@ -70,9 +70,10 @@ const OurDifference = () => {
           <div className="relative order-1 lg:order-2 reveal">
             <div className="relative rounded-2xl overflow-hidden aspect-[4/3]">
               <Image
-                src="/placeholder.svg?height=600&width=800"
-                alt="Professional training session"
-                fill
+                src="/server-room.png"
+                alt="Quasar CyberTech server room"
+                width={800}
+                height={600}
                 className="object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
@@ -97,11 +98,11 @@ const OurDifference = () => {
                         <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
                       </svg>
                     </div>
-                    <h3 className="text-xl font-semibold">Results-Driven Approach</h3>
+                    <h3 className="text-xl font-semibold">Results-Driven Security Training</h3>
                   </div>
                   <p className="text-gray-300">
-                    Our programs are designed with clear objectives and measurable outcomes, ensuring that every
-                    participant achieves tangible professional growth.
+                    Our programs are designed with clear cybersecurity objectives and measurable outcomes, ensuring that
+                    every participant achieves tangible professional growth in their security career.
                   </p>
                 </div>
               </div>
