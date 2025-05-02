@@ -12,19 +12,19 @@ const WhoShouldJoin = () => {
       title: "IT Professionals",
       description:
         "IT staff seeking to add security expertise to their skillset and transition into cybersecurity roles.",
-      image: "/cybersecurity-analyst.png",
+      image: "/it-professionals.png",
     },
     {
       title: "Security Leaders",
       description:
         "CISOs and security managers aiming to enhance their strategic security planning and team leadership capabilities.",
-      image: "/server-room.png",
+      image: "/security-leaders.png",
     },
     {
       title: "Career Changers",
       description:
         "Individuals transitioning to cybersecurity careers who need to develop relevant skills and certifications quickly.",
-      image: "/quasar-chip.png",
+      image: "/career-changers.png",
     },
   ]
 

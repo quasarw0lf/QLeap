@@ -9,7 +9,7 @@ const Events = () => {
       date: "June 15-17, 2025",
       time: "9:00 AM - 5:00 PM",
       location: "San Francisco, CA",
-      image: "/security-operations.png",
+      image: "/summit.png",
       description:
         "Join security leaders for three days of intensive workshops, keynotes, and networking focused on emerging cyber threats and defense strategies.",
     },
@@ -18,7 +18,7 @@ const Events = () => {
       date: "July 8, 2025",
       time: "10:00 AM - 4:00 PM",
       location: "Virtual Event",
-      image: "/cybersecurity-analyst.png",
+      image: "/Threat-int-connf.png",
       description:
         "Explore the latest threat intelligence techniques and technologies for proactive security monitoring and incident response.",
     },
@@ -27,7 +27,7 @@ const Events = () => {
       date: "August 3-7, 2025",
       time: "9:00 AM - 3:00 PM",
       location: "Chicago, IL",
-      image: "/server-room.png",
+      image: "/SOC-bootcamp.png",
       description:
         "An intensive five-day program covering essential SOC skills, threat hunting, and incident response techniques.",
     },
@@ -55,7 +55,7 @@ const Events = () => {
             >
               <div className="relative h-48">
                 <Image
-                  src={event.image || "/placeholder.svg"}
+                  src={event.image || "/QLeap-main.png"}
                   alt={event.title}
                   width={600}
                   height={400}

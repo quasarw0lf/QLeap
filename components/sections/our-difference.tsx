@@ -70,7 +70,7 @@ const OurDifference = () => {
           <div className="relative order-1 lg:order-2 reveal">
             <div className="relative rounded-2xl overflow-hidden aspect-[4/3]">
               <Image
-                src="/server-room.png"
+                src="/QLeap-main.png"
                 alt="Quasar CyberTech server room"
                 width={800}
                 height={600}
