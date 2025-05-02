@@ -12,7 +12,7 @@ const Footer = () => {
               src="/logo-footer.png"
               alt="QLeap Education by Quasar CyberTech"
               width={180}
-              height={60}
+              height={100}
               className="h-12 w-auto"
             />
             <p className="text-gray-400 mt-4">

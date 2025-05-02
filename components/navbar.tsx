@@ -42,7 +42,7 @@ const Navbar = () => {
             src="/logo.png"
             alt="QLeap Education by Quasar CyberTech"
             width={180}
-            height={60}
+            height={100}
             className="h-12 w-auto"
             priority
           />
